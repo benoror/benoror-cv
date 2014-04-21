@@ -406,16 +406,107 @@ padding:20px 20px;
 
 .level {
 text-indent:0;
+background-color:#e2e2e2;
+height:5px;
+width:100%;
+-webkit-border-radius:5px;
+border-radius:5px;
 margin-top:-10px;
+}
+
+.l-1 {
+width:10%;
+display:block;
+background-color:#346699;
+height:5px;
+-webkit-border-radius:5px 0 0 5px;
+border-radius:5px 0 0 5px;
+}
+
+.l-2 {
+width:20%;
+display:block;
+background-color:#346699;
+height:5px;
+-webkit-border-radius:5px 0 0 5px;
+border-radius:5px 0 0 5px;
+}
+
+.l-3 {
+width:30%;
+display:block;
+background-color:#346699;
+height:5px;
+-webkit-border-radius:5px 0 0 5px;
+border-radius:5px 0 0 5px;
+}
+
+.l-4 {
+width:40%;
+display:block;
+background-color:#346699;
+height:5px;
+-webkit-border-radius:5px 0 0 5px;
+border-radius:5px 0 0 5px;
+}
+
+.l-5 {
+width:50%;
+display:block;
+background-color:#346699;
+height:5px;
+-webkit-border-radius:5px 0 0 5px;
+border-radius:5px 0 0 5px;
+}
+
+.l-6 {
+width:60%;
+display:block;
+background-color:#346699;
+height:5px;
+-webkit-border-radius:5px 0 0 5px;
+border-radius:5px 0 0 5px;
+}
+
+.l-7 {
+width:70%;
+display:block;
+background-color:#346699;
+height:5px;
+-webkit-border-radius:5px 0 0 5px;
+border-radius:5px 0 0 5px;
+}
+
+.l-8 {
+width:80%;
+display:block;
+background-color:#346699;
+height:5px;
+-webkit-border-radius:5px 0 0 5px;
+border-radius:5px 0 0 5px;
+}
+
+.l-9 {
+width:90%;
+display:block;
+background-color:#346699;
+height:5px;
+-webkit-border-radius:5px 0 0 5px;
+border-radius:5px 0 0 5px;
+}
+
+.l-10 {
+width:100%;
+display:block;
+background-color:#346699;
+height:5px;
+-webkit-border-radius:5px;
+border-radius:5px;
 }
 
 .portfolio-items {
 border-bottom:0;
 padding:40px 0;
-}
-
-.l-1,.l-2,.l-3,.l-4,.l-5,.l-6,.l-7,.l-8,.l-9,.l-10 {
-width:100%;
 }
 
 .contact-info-2 li {
