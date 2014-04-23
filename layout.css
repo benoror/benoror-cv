@@ -267,7 +267,7 @@ right:0;
 }
 
 .cv-item,.skill {
-margin-bottom:40px;
+margin-bottom:4px;
 }
 
 #contact-form textarea:focus,#contact-form input[type=text]:focus {
@@ -513,6 +513,9 @@ padding:40px 0;
 float:none;
 }
 
+footer {
+page-break-after:always;
+}
 
 }
 
