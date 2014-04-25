@@ -391,6 +391,11 @@ width:370px;
 }
 
 @media print {
+
+.hide-print {
+display:none;
+}
+
 body {
 background-color:#fff;
 padding:0;
