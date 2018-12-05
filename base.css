@@ -17,13 +17,10 @@ body {
 -ms-text-size-adjust:100%;
 background:#c1c1c1;
 color:#606060;
-font:12px Arial,sans-serif;
+font-family:'Roboto',Arial,sans-serif;
+font-size:14px;
 font-weight:300;
 line-height:20px;
-}
-
-ol,ul {
-list-style:none;
 }
 
 blockquote,q {
@@ -49,7 +46,7 @@ overflow-y:scroll;
 
 h1,h2,h3,h4,h5,h6 {
 color:#444;
-font-family:'Open Sans',Arial,sans-serif;
+font-family:'Roboto',Arial,sans-serif;
 font-weight:400;
 }
 
@@ -215,7 +212,9 @@ text-decoration:underline;
 
 ul,ol {
 margin-bottom:4px;
-list-style-position:inside;
+margin-left:24px;
+list-style:circle;
+list-style-position:outside;
 }
 
 ul ul,ul ol,ol ol,ol ul {
@@ -1109,4 +1108,35 @@ text-align:right;
 
 img.self-picture {
 height: 100px;
+}
+
+details:hover {
+  background:#f0f0f0;
+}
+summary {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+summary::-webkit-details-marker {
+  color: #777;
+}
+summary::-webkit-details-marker {
+    display: none;
+}
+summary:before {
+    content: "\2630"; /* the new icon */
+    color: #696f7c;
+    margin-right: 5px;
+}
+
+/* Keep details open when printing*/
+@media print {
+details:not([open]) details summary {
+display:block!important;
+}
+details:not([open]){
+visibility:visible;
+}
+details:not([open])>*, details:not([open])>details {
+display:block;
 }

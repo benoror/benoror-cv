@@ -1,6 +1,6 @@
-benoror.github.io
-=================
+Ben Orozco
+==========
 
-This is my personal Resumé
+Professional Resumé: http://resume.benoror.com
 
-Take a look into: http://benoror.github.io/index.html
+Looking for my personal website? http://www.benoror.com

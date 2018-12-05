@@ -26,7 +26,6 @@ border-bottom:1px solid #999;
 
 .logo {
 line-height:24px;
-text-transform:uppercase;
 margin-bottom:0;
 color:#346699;
 }
@@ -66,14 +65,16 @@ padding:40px 0;
 }
 
 .cv-section-title {
+font-size:19px;
 color:#346699;
 line-height:18px;
-margin:10px 0 10px;
+margin:16px 0 16px;
 font-weight: 500;
 }
 
 .cv-item-description {
 text-align:right;
+font-size:12px;
 }
 
 .cv-item-description h6 {
