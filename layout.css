@@ -91,10 +91,10 @@ padding:0 10px;
 }
 
 .highlight {
-border:2px solid #f5f5f5;
--webkit-border-radius:5px;
-border-radius:5px;
-padding:0 5px;
+border:1px solid #346699;
+-webkit-border-radius:3px;
+border-radius:3px;
+padding:0 2px 0 2px;
 }
 
 .highlight2 {
@@ -374,7 +374,7 @@ margin-bottom:0;
 }
 
 #contact-form textarea {
-width:220px;
+t width:220px;
 }
 
 .contact-info,.contact-info-2 {
