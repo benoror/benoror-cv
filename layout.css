@@ -58,14 +58,10 @@ margin-bottom:0;
 }
 
 .cv-profile {
-border-top:1px solid #efefef;
-border-bottom:1px solid #efefef;
 font-weight:300;
-font-size:20px;
-line-height:32px;
-text-align:center;
-margin:40px 0;
-padding:40px 0;
+font-size:14px;
+/* line-height:32px; */
+text-align: justify;
 }
 
 .cv-section-title {
@@ -327,10 +323,6 @@ padding:60px 0;
 -webkit-box-shadow:0 4px 4px -2px #606060;
 box-shadow:0 4px 4px -2px #606060;
 margin-top:-180px;
-}
-
-.cv-profile {
-font-size:17px;
 }
 
 .contact-info li {
