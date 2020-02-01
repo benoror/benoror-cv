@@ -60,11 +60,12 @@ margin-bottom:0;
 .cv-profile {
 font-weight:300;
 font-size:14px;
+letter-spacing: 0.05em;
 text-align: justify;
 }
 
 .cv-section-title {
-font-size:19px;
+font-size:22px;
 color:#346699;
 line-height:18px;
 margin:16px 0 16px;
@@ -73,7 +74,6 @@ font-weight: 500;
 
 .cv-item-description {
 text-align:right;
-font-size:12px;
 }
 
 .cv-item-description h6 {
@@ -83,13 +83,23 @@ background-color:#f5f5f5;
 -webkit-border-radius:5px;
 border-radius:5px;
 padding:0 10px;
+font-weight: 700;
+letter-spacing: 0.05em;
+font-size:12px;
+}
+
+.cv-item-description a {
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  font-size:12px;
 }
 
 .highlight {
-border:1px solid #346699;
+  border:1px solid #dbe3eb;
+background-color: #fdfdfd;
 -webkit-border-radius:3px;
 border-radius:3px;
-padding:0 2px 0 2px;
+padding:0 1px 0 1px;
 }
 
 .highlight2 {
@@ -102,6 +112,9 @@ padding:0 5px;
 .cv-item-details h4 {
 line-height:22px;
 margin-bottom:4px;
+font-weight: 700;
+letter-spacing: 0.05em;
+text-transform: capitalize;
 }
 
 .skill h4 {
@@ -340,11 +353,6 @@ padding:10px;
 
 .cv-item {
 margin-bottom:40px;
-}
-
-.cv-section-title {
-color:#346699;
-margin:-10px 0 40px;
 }
 
 .portfolio-items {
