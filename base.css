@@ -213,17 +213,12 @@ text-decoration:underline;
 ul,ol {
 margin-bottom:4px;
 margin-left:24px;
-list-style:circle;
 list-style-position:outside;
 }
 
 ul ul,ul ol,ol ol,ol ul {
 margin-left:30px;
 margin-bottom:0;
-}
-
-ul {
-list-style: circle;
 }
 
 ol {
@@ -1116,6 +1111,7 @@ details:hover {
 summary {
   cursor: pointer;
   margin-bottom: 10px;
+  font-size: 15px;
 }
 summary::-webkit-details-marker {
   color: #777;
