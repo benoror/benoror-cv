@@ -1105,9 +1105,6 @@ img.self-picture {
 height: 100px;
 }
 
-details:hover {
-  background:#f0f0f0;
-}
 summary {
   cursor: pointer;
   margin-bottom: 10px;
@@ -1123,6 +1120,11 @@ summary:before {
     content: "\2630"; /* the new icon */
     color: #696f7c;
     margin-right: 5px;
+}
+
+/*Details styling*/
+details:hover {
+  background:#f0f0f0;
 }
 
 /* Keep details open when printing*/
